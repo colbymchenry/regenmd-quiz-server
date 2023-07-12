@@ -6,7 +6,7 @@ const app = express();
 // enable JSON body parser
 app.use(express.json());
 app.use(cors({
-    origin: ['http://localhost:3000'],
+    origin: ['*'],
     optionsSuccessStatus: 200
 }));
 
